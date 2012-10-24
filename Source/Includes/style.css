@@ -1,0 +1,78 @@
+body { 
+        padding:10px 10px; 
+        font:20px/150% arial; 
+        color: #617798; 
+
+    }
+
+.title  {
+        font:40px/150% arial;
+
+        }
+/* tutorial */
+
+input, textarea { 
+	padding: 10px;
+        margin: 5px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% arial;
+	width: 400px;
+	background: #FFFFFF url('bg_form.png') left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, 
+            from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, 
+            #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	}
+
+textarea { 
+	width: 400px;
+	max-width: 400px;
+	height: 100px;
+	line-height: 150%;
+	}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+	border-color: #C9C9C9; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+	}
+
+.form label {
+	margin-left: 10px;
+        width: 140px;
+        float:left;
+        vertical-align: middle;
+	}
+        
+.form {
+        width: 600px;
+        padding-top: 20px;
+}
+.checkbox {
+        width: 10px;
+        vertical-align: middle;
+}
+.listholder{
+  	font: normal 16px/100% arial;
+        margin-left: 155px;  
+}
+.list {
+        width: 200px;
+        float: left;  
+}
+
+.submit input {
+	width: auto;
+        margin-left: 155px;
+	padding: 10px 15px;
+	background: #617798;
+	border: 0;
+	font-size: 14px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
