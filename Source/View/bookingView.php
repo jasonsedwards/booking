@@ -36,7 +36,7 @@
         <div class="controls">
             <div class="input-prepend">  
                 <span class="add-on"><i class="icon-calendar"></i></span>
-                <input class="input-xlarge" type="date" name="datefrom" id="datefrom">
+                <input class="input-xlarge" type="date" name="datefrom" id="datefrom" required>
             </div>
         </div>
     </div> 
@@ -46,7 +46,7 @@
         <div class="controls">
             <div class="input-prepend">  
                 <span class="add-on"><i class="icon-calendar"></i></span>
-                <input class="input-xlarge" type="date" name="dateto" id="dateto">
+                <input class="input-xlarge" type="date" name="dateto" id="dateto" required>
             </div>
         </div>
     </div>  
