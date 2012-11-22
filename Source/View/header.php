@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Lowry Booking System</title>
+        <!-- Bootstrap -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
-        <link rel="stylesheet" href="/Includes/style.css" 
-              type="text/css" media="all" /> 
-       
-        <!-- Needed for Forms Feature Detection -->
-	<script type="text/javascript" 
-                src="/Includes/shared/js/modernizr.com/Modernizr-2.5.3.forms.js">
-	</script>
-	
-        <!-- Needed for Validation --> 
-	<script type="text/javascript" src="/Includes/shared/js/html5Forms.js" 
-                data-webforms2-support="date" 
-                data-webforms2-force-js-validation="true" data-lang="qq">
-	</script>
+        <link href="/Includes/bootstrap/css/bootstrap.min.css" 
+              rel="stylesheet" media="screen">
     </head>
-    <body>
+    <body style="padding: 40px">      
+        <div class="container-fluid">
+             <div class="navbar navbar-fixed-top">
+                <div class="navbar-inner">
+                    <a class="brand" href="/index.php">The Lowry Booking System</a>
+                    <ul class="nav">
+                        <li class="active"><a href="/index.php">Home</a></li>
+                    </ul>
+                </div>
+            </div>
