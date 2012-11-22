@@ -1,3 +1,7 @@
+            <footer>
+                <p>&copy; The Lowry Centre Limited 2012</p>
+            </footer>
+        </div><!-- /container -->
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script src="/Includes/bootstrap/js/bootstrap.min.js"></script>      
 
@@ -11,6 +15,5 @@
                 data-webforms2-support="date" 
                 data-webforms2-force-js-validation="true" data-lang="qq">
 	</script>
-        </div>
     </body>
 </html>

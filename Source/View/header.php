@@ -1,19 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Lowry Booking System</title>
         <!-- Bootstrap -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="/Includes/bootstrap/css/bootstrap.min.css" 
               rel="stylesheet" media="screen">
+        <style type="text/css">
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+         <link href="/Includes/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     </head>
-    <body style="padding: 40px">      
-        <div class="container-fluid">
-             <div class="navbar navbar-fixed-top">
-                <div class="navbar-inner">
-                    <a class="brand" href="/index.php">The Lowry Booking System</a>
-                    <ul class="nav">
-                        <li class="active"><a href="/index.php">Home</a></li>
-                    </ul>
+    <body>      
+         <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                <a class="brand" href="/index.php?page=home">The Lowry Booking System</a>
+                <ul class="nav">
+                    <li><a class="active" href="/index.php?page=home">Home</a></li>
+                    <li><a href="/index.php?page=bookingView">Make Booking</a></li>
+                </ul>
                 </div>
             </div>
+        </div>
+        <div class ="container">

@@ -101,5 +101,4 @@
     <div class="controls">
         <input class="btn btn-primary" type="submit" value="Submit" />
     </div>
-    </div>
 </form>
