@@ -9,8 +9,9 @@ date_default_timezone_set('Europe/London');
 $to      = 'itsupport@thelowry.com'; 
 $subject = 'Booking';
 $headers = 'From:' . $_POST['email'] . "\r\n" .
+        'Cc:' . $_POST['email'] . "\r\n" .
     'Reply-To:' . $_POST['email'] . "\r\n" . 
-    'X-Mailer: PHP/' . phpversion() . 'Cc:' .$_POST['email'] . "\r\n";
+    'X-Mailer: PHP/' . phpversion();
 $message = "Name: " . $_POST['name'] . "\nDepartment: " . 
     $_POST['department'] . "\nEmail: " . $_POST['email'] . 
     "\nDate From: " . $_POST['datefrom'] . "\nDate To: " . 
