@@ -21,7 +21,7 @@
                 <a class="brand" href="/index.php?page=home">The Lowry Booking System</a>
                 <ul class="nav">
                     <li><a class="active" href="/index.php?page=home">Home</a></li>
-                    <li><a href="/index.php?page=bookingView">Make Booking</a></li>
+                    <li><a href="/index.php?page=makeBookingView">Make Booking</a></li>
                 </ul>
                 </div>
             </div>
