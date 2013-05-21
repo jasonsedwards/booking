@@ -40,7 +40,7 @@
             </div>
         </div>
     </div> 
-
+ 
     <div class="control-group">
         <label class="control-label" for="dateto">Date To</label>
         <div class="controls">
@@ -62,7 +62,7 @@
                 <input type="checkbox" name="chk_group[]" value="MacBook" /> Macbook
             </label>
             <label class="checkbox inline">
-                <input type="checkbox" name="chk_group[]" value="VGA Adaptor" /> Apple VGA Adaptor
+                <input type="checkbox" name="chk_group[]" value="Laptop" /> Laptop
             </label>
         </div>
         <div class="controls">
@@ -76,6 +76,9 @@
         <div class="controls">
             <label class="checkbox inline">
                 <input type="checkbox" name="chk_group[]" value="Conference Phone" /> Conference Phone
+            </label>            
+            <label class="checkbox inline">
+                <input type="checkbox" name="chk_group[]" value="VGA Adaptor" /> Apple VGA Adaptor
             </label>
         </div>
         <div class="controls">
