@@ -18,7 +18,7 @@ class Controller {
             if(file_exists('Controllers/'.$_GET['action'].'.php')){
                 include 'Controllers/'.$_GET['action'].'.php';
             }else{
-                echo "file does not exist";
+                echo "action does not exist";
             }
         }
     }

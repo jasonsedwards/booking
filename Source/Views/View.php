@@ -17,7 +17,7 @@ class View {
         if(file_exists('Views/'.$view.'.php')){
             include_once 'Views/'.$view.'.php';
         }else{
-            echo "file does not exist";
+            echo "view does not exist";
         }
     }
 }
