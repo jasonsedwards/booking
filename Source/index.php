@@ -1,13 +1,13 @@
 <?php
-include "View/header.php";
+include_once "Views/header.php";
 
-if(isset($_GET['page']))
-{
-  include "View/".$_GET['page'].".php";  
+include "Controllers/Controller.php";
+$controller = new Controller();
+if(isset($_GET['page'])){
+    $controller->loadView($_GET['page']);
 }else{
-    include "View/home.php";    
+    $controller->loadView('home');
 }
-
-include "View/footer.php";
+include_once "Views/footer.php";
 
 ?>
