@@ -8,6 +8,9 @@ if(isset($_GET['page'])){
 }else{
     $controller->loadView('home');
 }
+if(isset($_GET['action'])){
+    $controller->loadAction();
+}
 include_once "Views/footer.php";
 
 ?>
