@@ -1,5 +1,5 @@
 <div class="page-header"><h1>Equipment Booking Form</h1></div>
-<form class="form-horizontal" method="post" action="index.php?page=bookingView&action=makeBooking">
+<form class="form-horizontal" method="post" action="?action=makeBooking">
 
      <div class="control-group">
             <label class="control-label" for="name">Name</label>
