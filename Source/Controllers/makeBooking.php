@@ -20,8 +20,8 @@ $message + wordwrap($message, 70);
 try{
     if(mail($to, $subject, $message, $headers))
     {
-        header("Refresh: 3; url=http://booking.lowry.com/");
-        echo "Booking was successful, redirecting to booking form...";
+        header("Refresh: 3; url=?page=home");
+        echo "Booking was successful, redirecting to home page...";
     }else{
         echo("Mail could not be sent");
     }
